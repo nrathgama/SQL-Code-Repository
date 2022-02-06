@@ -55,4 +55,22 @@ dbname-.dbo.-tablename */
 SELECT *
 FROM [SQL Tutorial Project].dbo.EmployeeSalary
 
+/*
+WHERE STATEMENT
+=, <>- does not eq, <, >, And-2 or more criteria, Or- one or the other, Like, Null, Not Null, In
+*/
+
+/*SELECT *
+FROM EmployeeDemographics
+WHERE LastName LIKE 'S%C%OTT%'
+
+SELECT *
+FROM EmployeeDemographics
+WHERE FirstName is NOT NULL
+
+SELECT *
+FROM EmployeeDemographics
+WHERE FirstName IN ('Jim', 'Michael')*/
+
+
 
