@@ -76,6 +76,12 @@ WHERE FirstName IN ('Jim', 'Michael')*/
 */
 SELECT *
 FROM EmployeeDemographics
+ORDER BY Age DESC, Gender DESC
+
+/*EVEN numbers can be used instead of column names if it is a small table*/
+SELECT *
+FROM EmployeeDemographics
+ORDER BY 4 DESC, 5 DESC
 
 SELECT Gender, COUNT(Gender) AS CountGender
 FROM EmployeeDemographics
