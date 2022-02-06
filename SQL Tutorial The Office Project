@@ -72,5 +72,17 @@ SELECT *
 FROM EmployeeDemographics
 WHERE FirstName IN ('Jim', 'Michael')*/
 
+/* Group By, Order By
+*/
+SELECT *
+FROM EmployeeDemographics
+
+SELECT Gender, COUNT(Gender) AS CountGender
+FROM EmployeeDemographics
+WHERE Age > 31
+GROUP BY Gender
+ORDER BY CountGender DESC
+
+
 
 
