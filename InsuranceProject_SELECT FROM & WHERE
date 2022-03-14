@@ -25,21 +25,3 @@ FROM [Insurance].[dbo].[Claimant]
 WHERE year (ClosedDate) = 2018
 	AND ReopenedDate IS NULL
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
